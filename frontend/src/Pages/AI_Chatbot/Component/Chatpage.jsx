@@ -11,6 +11,7 @@ const ChatApp = () => {
   const chatEndRef = useRef(null); // Reference to the bottom of the chat
   const chatStartRef = useRef(null); // Reference to the top of the chat
   const [showScrollTop, setShowScrollTop] = useState(false); // For the scroll up arrow
+  const [loading,setLoading] = useState(false)
 
   // Auto-scroll to the bottom of the chat whenever messages change
   useEffect(() => {
@@ -27,6 +28,7 @@ const ChatApp = () => {
     setIsUserTyping(true);
 
     try {
+      setLoading(true)
       const response = await axios.post("http://localhost:5000/chatwithbot", {
         user_input: input,
       });
@@ -34,6 +36,7 @@ const ChatApp = () => {
       const aiReply = { text: response.data.response, sender: "ai" };
       setMessages((prev) => [...prev, aiReply]);
       setIsUserTyping(false);
+      setLoading(false)
     } catch (error) {
       const aiError = {
         text: "Sorry, something went wrong. Please try again.",

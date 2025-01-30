@@ -66,10 +66,7 @@ app.post('/chatwithbot', async (req, res) => {
   }
 
   try {
-    // Sending request to the Python Flask server to get the response
     const response = await axios.post('http://127.0.0.1:5001/chat', { user_input });
-
-    // Send back the AI's response
     return res.json({ response: response.data.response });
   } catch (error) {
     console.error('Error communicating with the Python server:', error);
