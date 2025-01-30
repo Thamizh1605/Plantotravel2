@@ -1,0 +1,155 @@
+[
+    {
+        "_id": 1,
+        "name": "Paris",
+        "description": "A beautiful city with rich culture.",
+        "country": "France",
+        "season": "Summer",
+        "crowd_level": "Medium",
+        "tourist_spots": [
+            { "name": "Eiffel Tower", "description": "Iconic tower in Paris", "entry_fee": 25.00 },
+            { "name": "Louvre Museum", "description": "World-famous museum", "entry_fee": 15.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 500.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 950.00 },
+            { "start_point": "Chennai", "transport_cost": 450.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 900.00 },
+            { "start_point": "Hyderabad", "transport_cost": 480.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 930.00 }
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "Rome",
+        "description": "The eternal city with historical landmarks.",
+        "country": "Italy",
+        "season": "Spring",
+        "crowd_level": "High",
+        "tourist_spots": [
+            { "name": "Colosseum", "description": "Ancient amphitheater", "entry_fee": 20.00 },
+            { "name": "Vatican Museums", "description": "Famous art collection", "entry_fee": 18.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 600.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 970.00 },
+            { "start_point": "Chennai", "transport_cost": 550.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 920.00 },
+            { "start_point": "Hyderabad", "transport_cost": 580.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 950.00 }
+        ]
+    },
+    {
+        "_id": 3,
+        "name": "New York",
+        "description": "The city that never sleeps.",
+        "country": "USA",
+        "season": "Winter",
+        "crowd_level": "High",
+        "tourist_spots": [
+            { "name": "Statue of Liberty", "description": "Symbol of freedom", "entry_fee": 25.00 },
+            { "name": "Central Park", "description": "A large park in the middle of Manhattan", "entry_fee": 0.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 1000.00, "hotel_cost": 400.00, "food_cost": 200.00, "total_cost": 1600.00 },
+            { "start_point": "Chennai", "transport_cost": 950.00, "hotel_cost": 400.00, "food_cost": 200.00, "total_cost": 1550.00 },
+            { "start_point": "Hyderabad", "transport_cost": 980.00, "hotel_cost": 400.00, "food_cost": 200.00, "total_cost": 1580.00 }
+        ]
+    },
+    {
+        "_id": 4,
+        "name": "Tokyo",
+        "description": "A futuristic city blending tradition and modernity.",
+        "country": "Japan",
+        "season": "Autumn",
+        "crowd_level": "Medium",
+        "tourist_spots": [
+            { "name": "Tokyo Tower", "description": "Famous landmark and observation tower", "entry_fee": 20.00 },
+            { "name": "Shibuya Crossing", "description": "Busy pedestrian crossing", "entry_fee": 0.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 750.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1280.00 },
+            { "start_point": "Chennai", "transport_cost": 700.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1230.00 },
+            { "start_point": "Hyderabad", "transport_cost": 730.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1260.00 }
+        ]
+    },
+    {
+        "_id": 5,
+        "name": "Sydney",
+        "description": "Australia's largest city with iconic beaches and landmarks.",
+        "country": "Australia",
+        "season": "Summer",
+        "crowd_level": "Medium",
+        "tourist_spots": [
+            { "name": "Sydney Opera House", "description": "World-famous performing arts venue", "entry_fee": 30.00 },
+            { "name": "Bondi Beach", "description": "Popular beach for surfing", "entry_fee": 0.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 800.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1330.00 },
+            { "start_point": "Chennai", "transport_cost": 750.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1280.00 },
+            { "start_point": "Hyderabad", "transport_cost": 780.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1310.00 }
+        ]
+    },
+    {
+        "_id": 6,
+        "name": "Dubai",
+        "description": "A modern city with luxury shopping and futuristic architecture.",
+        "country": "UAE",
+        "season": "Winter",
+        "crowd_level": "High",
+        "tourist_spots": [
+            { "name": "Burj Khalifa", "description": "Tallest building in the world", "entry_fee": 40.00 },
+            { "name": "Dubai Mall", "description": "Largest mall in the world", "entry_fee": 0.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 350.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 720.00 },
+            { "start_point": "Chennai", "transport_cost": 300.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 670.00 },
+            { "start_point": "Hyderabad", "transport_cost": 320.00, "hotel_cost": 250.00, "food_cost": 120.00, "total_cost": 690.00 }
+        ]
+    },
+    {
+        "_id": 7,
+        "name": "London",
+        "description": "The capital of England, known for its history and landmarks.",
+        "country": "UK",
+        "season": "Spring",
+        "crowd_level": "High",
+        "tourist_spots": [
+            { "name": "Big Ben", "description": "Famous clock tower", "entry_fee": 0.00 },
+            { "name": "London Eye", "description": "Giant Ferris wheel", "entry_fee": 30.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 850.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1380.00 },
+            { "start_point": "Chennai", "transport_cost": 800.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1330.00 },
+            { "start_point": "Hyderabad", "transport_cost": 820.00, "hotel_cost": 350.00, "food_cost": 180.00, "total_cost": 1350.00 }
+        ]
+    },
+    {
+        "_id": 8,
+        "name": "Bangkok",
+        "description": "A vibrant city known for its street life and temples.",
+        "country": "Thailand",
+        "season": "Rainy",
+        "crowd_level": "Medium",
+        "tourist_spots": [
+            { "name": "Grand Palace", "description": "Royal residence and temples", "entry_fee": 15.00 },
+            { "name": "Wat Arun", "description": "Temple of Dawn", "entry_fee": 10.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 400.00, "hotel_cost": 200.00, "food_cost": 100.00, "total_cost": 700.00 },
+            { "start_point": "Chennai", "transport_cost": 350.00, "hotel_cost": 200.00, "food_cost": 100.00, "total_cost": 650.00 },
+            { "start_point": "Hyderabad", "transport_cost": 370.00, "hotel_cost": 200.00, "food_cost": 100.00, "total_cost": 670.00 }
+        ]
+    },
+    {
+        "_id": 9,
+        "name": "Cape Town",
+        "description": "A coastal city known for its stunning beaches and mountains.",
+        "country": "South Africa",
+        "season": "Summer",
+        "crowd_level": "Low",
+        "tourist_spots": [
+            { "name": "Table Mountain", "description": "Famous flat-topped mountain", "entry_fee": 20.00 },
+            { "name": "V&A Waterfront", "description": "Shopping and entertainment hub", "entry_fee": 0.00 }
+        ],
+        "travel_costs": [
+            { "start_point": "Bangalore", "transport_cost": 950.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 1400.00 },
+            { "start_point": "Chennai", "transport_cost": 900.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 1350.00 },
+            { "start_point": "Hyderabad", "transport_cost": 920.00, "hotel_cost": 300.00, "food_cost": 150.00, "total_cost": 1370.00 }
+        ]
+    }
+]
